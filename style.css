@@ -14,6 +14,17 @@ transform: rotate(180deg); flex-grow : 1;}
 
 #divspider4 {display:flex;justify-content: center;}
 
+#spider4 {animation 1s ease-in 1s infinite slidein}
+@keyframes slidein {
+  from {
+    margin-left: -30%;
+    width: 300%;
+  }
+  to {
+    margin-left: 100%;
+    width: 100%;}
+}
+
 #divspider3 {
   animation: 3s ease-in 3s infinite slidein;
 }
